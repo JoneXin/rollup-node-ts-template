@@ -1,0 +1,43 @@
+{
+    "name": "your_project_name",
+    "version": "0.0.1",
+    "description": "介绍",
+    "main": "dist/cli.js",
+    "dest": "dist/cli.js",
+    "bin": {
+        "bin": "./dist/cli.js"
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "dev": "rollup -c -w"
+    },
+    "author": "Jone Xin",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.14.6",
+        "@babel/plugin-transform-runtime": "^7.15.0",
+        "@babel/preset-env": "^7.14.7",
+        "@babel/preset-typescript": "^7.14.5",
+        "@rollup/plugin-commonjs": "^19.0.1",
+        "@rollup/plugin-json": "^4.1.0",
+        "@rollup/plugin-node-resolve": "^13.0.2",
+        "rollup": "^2.70.1",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-typescript2": "^0.31.2",
+        "typescript": "^4.6.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitee.com/JoinXin/x-down.git"
+    },
+    "keywords": [
+        "cli",
+        "template",
+        "vue2 vue3 react middway rollup template",
+        "libarary"
+    ],
+    "bugs": {
+        "url": "https://gitee.com/JoinXin/x-down/issues"
+    },
+    "dependencies": {}
+}
